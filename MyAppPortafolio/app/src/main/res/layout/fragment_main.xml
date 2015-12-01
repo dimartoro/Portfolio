@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:showIn="@layout/activity_main"
+    tools:context=".MainActivityFragment">
+
+    <TextView android:text="@string/title_portfolio" android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_spotify_streamer"
+        android:id="@+id/button"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView"
+        android:width="200dp"
+        android:onClick="sendSpotifyStreamer"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_scores_app"
+        android:id="@+id/button2"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button"
+        android:width="200dp"
+        android:onClick="sendScoresApp"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_library_app"
+        android:id="@+id/button3"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button2"
+        android:width="200dp"
+        android:onClick="sendLibraryApp"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_build_bigger"
+        android:id="@+id/button4"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button3"
+        android:width="200dp"
+        android:onClick="sendBuildItBigger"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_xyz_reader"
+        android:id="@+id/button5"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button4"
+        android:width="200dp"
+        android:onClick="sendXYZReader"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_capstone"
+        android:id="@+id/button6"
+        android:background="#0097A7"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/button5"
+        android:width="200dp"
+        android:onClick="sendCapstoneMyOwnApp"/>
+
+
+</RelativeLayout>
